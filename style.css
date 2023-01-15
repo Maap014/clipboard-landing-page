@@ -1,0 +1,301 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: rgb(255, 255, 255);
+
+}
+.div-1{
+    background-image: url(images/bg-header-mobile.png);
+    height: 22rem;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    text-align: center;
+    
+}
+
+.c-logo{
+    width: 85px;
+    height: 85px;
+    margin-top: 5.3rem;
+}
+.bold-p{
+    width: 12rem;
+    font-size: 18px;
+    font-weight: 600;
+    font-family: 'Bai Jamjuree';
+    margin: 2rem auto 1rem;
+    text-align: center;
+    color: hsl(210, 10%, 33%);
+}
+.regular-p{
+    width: 212px;
+    font-size: 11px;
+    font-weight: 400;
+    font-family: 'Bai Jamjuree';
+    margin: 1rem auto;
+    text-align: center;
+    line-height: 18px;
+    color: hsl(201, 11%, 66%);
+}
+.div-2{
+    text-align: center;
+    margin-bottom: 7rem;
+    align-content: center;
+    justify-items: center;
+    display: grid;
+    grid-template-columns: 1fr;
+}
+.ios{
+    background-color: hsl(171, 66%, 44%);
+    padding: 14px 0px;
+    width: 14rem;
+    border-radius: 2rem;
+    border-bottom: outset hsl(171deg 81% 71% / 92%);
+    box-shadow: 0px 2px 10px hsl(171deg 53% 48%);
+    font-size: 13px;
+    font-family: 'Bai Jamjuree';
+    font-weight: 600;
+    color: #fff;
+
+}
+.mac{
+    background-color: hsl(233, 100%, 69%);
+    margin-top: 13px;
+    padding: 14px 0px;
+    width: 14rem;
+    border-radius: 2rem;
+    border-bottom: outset hsl(233deg 63% 63% / 50%);
+    font-size: 13px;
+    font-family: 'Bai Jamjuree';
+    font-weight: 600;
+    color: #fff;
+
+}
+.div-3{
+    text-align: center;
+    margin-bottom: 7rem;
+}
+
+.computer{
+    margin: 2rem 1.5rem;
+    width: -webkit-fill-available;
+}
+.devices{
+    margin: 2rem 0.5rem ;
+    width: -webkit-fill-available;
+}
+.icon{
+    margin: 2.5rem 0 0;
+    width: 40px;
+    
+}
+.div-icon{
+    display: grid;
+    grid-template-columns: 1fr;
+    justify-items: center;
+}
+.div-logo{
+    margin-top: 6rem;
+    display: grid;
+    justify-items: center;
+    grid-template-columns: 1fr;
+
+}
+.hp{
+    width: 5.6rem;
+    padding: 1.5rem;
+}
+.G-M{
+    width: 6.6rem;
+    padding: 1.5rem;
+}
+.footer{
+    background-color: hsl(201deg 11% 66% / 15%);
+    text-align: center;
+}
+.logo-2{
+    width: 43px;
+    height: 43px;
+    margin: 1.8rem
+}
+
+li{
+    list-style: none;
+    
+}
+a{
+    display: block;
+    text-decoration: none;
+    padding: 12px;
+    font-size: 15px;
+    font-weight: 400;
+    font-family: 'Bai Jamjuree';
+    color:hsl(210, 10%, 33%) ;
+}
+.fa-brands{
+    font-size: 20px;
+    margin: 2rem 1rem;
+    width: 19px;
+
+}
+/*desktop view*/
+
+@media (min-width: 1440px) {
+    .c-logo{
+        width: 125px;
+        height: 125px;
+        margin-top: 9rem;
+    }
+    .div-1{
+        background-image: url(images/bg-header-desktop.png);
+        height: 27rem;
+    }
+    .bold-p{
+        width: 33rem;
+        font-size: 34px;
+
+    }
+    .regular-p{
+        width: 44rem;
+        font-size: 18px;
+        line-height: 28px;
+    }
+
+    .div-2{
+        grid-template-columns: 1fr 1fr;
+        width: 500px;
+        margin: 2.5rem auto 7rem;
+
+    }
+    .ios{
+       margin-top: 13px;
+       font-size: 17.5px;
+    
+    }
+    .mac{
+        margin-top: 13px;
+        font-size: 17.5px;
+    }
+    .computer{
+        width: 46rem;
+        margin: 0;
+        position: relative;
+        left: -19px;
+    }
+
+    .computer-container{
+        display: flex;
+        gap: 6rem;
+        margin-bottom: 9rem;
+
+    }
+    .div-3{
+        margin-top: 3rem;
+        margin-bottom: 0;
+    }
+    
+    .bold4 {
+        text-align: left;
+        width: 22rem;
+        font-size: 22px;
+        margin-top: 2.3rem;
+
+    }
+    .reg4{
+        text-align: left;
+        width: 22rem;
+        font-size: 16px;
+    }
+    .devices{
+        width: 56rem;
+    }
+    .div-icon{
+        grid-template-columns: 25rem 26.5rem 27.3rem;
+        justify-content: center;
+    }
+    .boldicon{
+        width: 15rem;
+        font-size: 25px;
+        
+    }
+    .regicon{
+        width: 26rem;
+        font-size: 19px;
+    }
+    .div-logo{
+        grid-template-columns: 17rem 17rem 17rem 17rem 14rem;
+        margin-bottom: 6rem;
+        justify-content: center;
+
+    }
+    .hp{
+        width: 7.6rem;
+        padding: 1.5rem;
+    }
+    .G-M{
+        width: 9.6rem;
+        padding: 1.5rem;
+    }
+    .footer{
+        display: flex;
+        align-items: center;
+        width: -webkit-fill-available;
+
+    }
+    .logo-2{
+        margin: 3rem 13rem 3rem 18rem;
+        width: 60px;
+        height: 60px;
+
+    }
+    li{
+        display: grid;
+        grid-template-columns: 135px 135px 135px;
+        text-align: left;
+        
+    }
+    .social-media-container{
+        margin: auto;
+        margin-right: 3rem;
+        display: flex;
+        
+
+    }
+
+    .fa-brands{
+        width: 26px;
+        font-size: 30px;
+
+    }
+
+    /*hover*/
+    .ios:hover{
+        cursor: pointer;
+        transition: .3s;
+        transform:scale(0.9);
+        opacity: 0.7;
+        background-color:hsl(171, 66%, 44%);
+    }
+    .mac:hover{
+        cursor: pointer;
+        transition: .3s;
+        transform:scale(0.9);
+        opacity: 0.7;
+        background-color:hsl(233, 100%, 69%); ;
+
+    }
+    a:hover {
+        color: hsl(171, 66%, 44%);
+        transform: scale(1.1);
+       
+    }
+    .fa-brands:hover{
+        color: hsl(171, 66%, 44%);
+        cursor: pointer;
+    
+    }
+
+
+}
